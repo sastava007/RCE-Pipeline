@@ -9,7 +9,7 @@ RUN apt-get install -y gcc
 RUN apt-get install -y g++
 
 #Support for python
-RUN apt-get install -y python3.7
+RUN apt-get install -y python3
 
 #Support for Javascript
 RUN apt-get install -y nodejs
