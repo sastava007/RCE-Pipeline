@@ -1,9 +1,8 @@
 FROM ubuntu:18.04
 MAINTAINER Prajwal Singh, Shivash Srivastava
 
-RUN echo "deb http://archive.ubuntu.com/ubuntu trusty main universe" > /etc/apt/sources.list
-
 RUN apt-get update
+#RUN apt-get upgrade -y
 
 #support for C/C++
 RUN apt-get install -y gcc
