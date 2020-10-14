@@ -1,5 +1,5 @@
 FROM ubuntu:18.04
-MAINTAINER Prajwal Singh, Shivash Srivastava
+MAINTAINER Shivash Srivastava
 
 RUN apt-get update
 #RUN apt-get upgrade -y
